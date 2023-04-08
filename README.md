@@ -12,4 +12,4 @@ js - Contains all the JavaScript files for the website,
 
 images - Contains all the assets for the website. 
 
-Root folder caontains all the html files for the website
+Root folder contains all the html files for the website
