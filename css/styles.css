@@ -1,0 +1,465 @@
+body{
+    background-color: rgb(44, 14, 88);
+}
+
+nav{
+    margin-bottom: 30px;
+    background-color: rgb(25, 6, 54);
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 160px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: rgb(198, 169, 0)
+}
+
+#login {
+  display: none;
+}
+
+#signup {
+  display: none;
+}
+
+#profile {
+  display: none;
+}
+
+#signout {
+  display: none;
+}
+
+.parent {
+    margin-top: 20px;
+    margin-left: 130px;
+  }
+
+.childone {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+  }
+
+.childone p:nth-child(1){
+    color: rgb(232, 191, 55);
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 90px;
+  }
+
+.childone p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90px;
+  }
+
+.childtwo {
+    display: inline-block;
+    vertical-align: top;
+    width: 44%;
+    padding-left: 2px;
+  }
+
+.childtwo img {
+    width: 250px;
+  }
+
+.mission p {
+  margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(232, 191, 55);
+}
+
+.circlesleft {
+    margin-top: 20px;
+  }
+
+.circlesleft .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding-left: 100px;
+  }
+
+.circlesleft .left img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+  
+.circlesleft .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+  }
+
+.circlesleft .right p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+.circlesleft .right a {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 70px;
+    background-color: rgb(89, 0, 190);
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 15px;
+  }
+
+.circlesleft .right a:hover {
+    background-color: rgb(198, 169, 0);
+  }
+
+.circleright {
+    margin-top: 20px;
+  }
+  
+.circleright .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 67%;
+    text-align: right;
+  }
+
+.circleright .left p{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  }
+
+.circleright .left a {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 25px;
+  background-color: rgb(89, 0, 190);
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 15px;
+  }
+
+.circleright .left a:hover {
+  background-color: rgb(198, 169, 0);
+    }
+
+  .circleright .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding-left: 30px;
+  }
+
+.circleright .right img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+  border: 3px solid rgb(232, 191, 55);
+  width: 85%;
+  margin-top: 20px;
+}
+
+.help {
+  color: white;
+  margin-left: 110px;
+  margin-right: 50px;
+  font-size: 33px;
+}
+
+.helpleft {
+    margin-top: 20px;
+  }
+
+.helpleft .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding-left: 100px;
+  }
+
+.helpleft .left img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+  
+.helpleft .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+  }
+
+.helpleft .right p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+.helpleft .right a {
+    color: white;
+    text-decoration: none;
+  }
+
+.helpleft .right a:hover {
+    background-color: rgb(198, 169, 0);
+  }
+
+.article {
+    color: white;
+    margin-left: 110px;
+    margin-right: 100px;
+    font-size: 25px;
+  }
+
+.articleleft {
+    margin-top: 20px;
+  }
+
+.articleleft .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding-left: 100px;
+  }
+
+.articleleft .left img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+  
+.articleleft .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+  }
+
+  .articleleft .right h2{
+    color: gold;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+.articleleft .right p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .profile {
+    position:relative;
+    margin-left: 200px;
+    width: 80%;
+    }
+    
+    .skyline {
+    width: 80%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .profilepic {
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    border: 3px solid rgb(232, 191, 55);
+    }
+    
+    .profile p {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 350px;
+    color: gold;
+    }
+    
+    .profile table {
+    margin-top: 40px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    border: 3px solid rgb(232, 191, 55);
+    border-collapse:collapse;
+    background-color: rgb(33, 11, 65)
+    
+    }
+
+.articleleft .right a {
+    color: white;
+    text-decoration: none;
+  }
+
+.articleleft .right a:hover {
+    background-color: rgb(198, 169, 0);
+  }
+
+.creation{
+  color: white;
+  margin-left: 110px;
+  margin-right: 100px;
+  font-size: 25px;
+
+}
+
+.memact {
+  font-weight: bold;
+  } 
+
+  th {
+    font-size: 30px;
+    font-weight: 400;
+    }
+    
+    td {
+    padding: 10px;
+    }
+    
+    tr {
+    border: 3px solid rgb(232, 191, 55);
+    }
+
+
+    .forum table {
+      margin-left: 140px;
+      width: 80%;
+      text-align: left;
+      color: white;
+      font-size: 20px;
+      border: 3px solid rgb(232, 191, 55);
+      border-collapse:collapse;
+    }
+    
+    .forum th {
+      font-size: 30px;
+      padding: 15px;
+    }
+    
+    .forum img {
+      width: 60px;
+      border-radius: 50px;
+    }
+
+.forum td a {
+  color: white;
+  text-decoration: none;
+}
+
+.forum td a {
+  color: white;
+  text-decoration: none;
+}
+
+.forum td a:hover {
+  background-color: rgb(198, 169, 0);
+}
+
+
+
+.post table {
+  margin-left: 140px;
+  width: 80%;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  border: 3px solid rgb(232, 191, 55);
+  border-collapse:collapse;
+}
+
+.post th {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.post img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.post td {
+  border: 5px;
+  vertical-align: top;
+}
+
+.post td:first-child p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.post td a {
+color: white;
+text-decoration: none;
+}
+
+.post td a {
+color: white;
+text-decoration: none;
+}
+
+.post td a:hover {
+background-color: rgb(198, 169, 0);
+}
+
+#sendtext {
+  border-radius: 10px;
+  background-color: gold;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(33, 11, 65);
+  width: 100%;
+}
+
+#usertext {
+  font-size: 20px;
+}
+
+#sendtext:hover {
+  border-radius: 10px;
+  background-color: rgb(179, 152, 0);
+  padding: 10px;
+  font-size: 20px;
+}
