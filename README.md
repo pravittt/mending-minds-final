@@ -27,3 +27,15 @@ profile.html - Page with the name, email address, and some other details about t
 signup.html - Page where visitors can register an account
 
 testimonies.html - Page with success stories of the users
+
+
+You can test the filtering system on the post.html page:
+
+-Type anything and press Post Your Comment - your comment will be added to the bottom of the page
+
+-Type a comment with two words: "bad word", and your comment will not be posted (For example, a comment: "I bad word hate losing money" will not be posted)
+
+-Type a comment and add .ca or .com to it, and your comment will not be posted (For example, a comment: "$100 Welcome Bonus. Join: onlinecasino.ca" will not be posted)
+
+
+We used "bad word" instead of actual swear words because we did not want our code to include any dirty words.
